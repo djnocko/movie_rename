@@ -23,6 +23,8 @@ def rename_files(folder_path):
             os.rename(old_path, new_path)
 
 if __name__ == "__main__":
-    #folder_path = r"\\IP-ADDRESS\videos\converted"
+    # Select folder with your movie files
     folder_path = r"C:\Users\USERNAME\Documents\videos"
+    # Below is an example if you use network drives:
+    # folder_path = r"\\IP-ADDRESS\videos\converted"
     rename_files(folder_path)
