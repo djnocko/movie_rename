@@ -16,9 +16,11 @@ In MS WIN, if you wish to create a shortcut on your desktop, for example, to aut
 
 Create a local file named renameFiles.bat for example. Add the following content to the file:
 
->@echo off
->setlocal
->python "D:\YourScript\Folder\renameFiles2.py"
->pause
+```
+@echo off
+setlocal
+python "D:\YourScript\Folder\renameFiles2.py"
+pause
+```
 
 This batch file executes the Python script renameFiles2.py located at D:\YourScript\Folder\, ensuring seamless execution. The pause command keeps the command prompt window open after execution, allowing you to view any messages or errors."
